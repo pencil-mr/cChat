@@ -9,7 +9,7 @@ const int PORT = 8000;
 void handle_connect(int conn_fd) {
     char buf[1024];
     read(conn_fd, buf, 1024);
-    prinf("%s", buf);
+    printf("%s", buf);
     close(conn_fd);
 }
 

@@ -12,3 +12,9 @@
 
 The goal of this project is to learn some C and Git
 
+## Build
+
+To build the project run:
+```bash
+$ make
+```
