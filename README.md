@@ -10,5 +10,5 @@
 
 ## Goal
 
-The goal of this project is to learn some C
+The goal of this project is to learn some C and Git
 
