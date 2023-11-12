@@ -1,2 +1,2 @@
-build/chatServer: src/*.c
-	gcc -Wall -o build/chatServer src/*
+chatServer: src/*.c
+	gcc -Wall -o chatServer src/*
