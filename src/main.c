@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 
-const int PORT = 8000;
+const int PORT = 8080;
 
 void handle_connect(int conn_fd) {
     char buf[1024];
@@ -14,10 +14,11 @@ void handle_connect(int conn_fd) {
 }
 
 int main() {
-    struct sockaddr_in serv_addr = {0};
+    struct sockaddr_in serv_addr = {};
 
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(PORT);
+    serv_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
     int serv_len = sizeof(serv_addr);
 
     int serv_fd = socket(AF_INET, SOCK_STREAM, 0);
