@@ -14,11 +14,16 @@ The goal of this project is to learn some C and Git
 
 ## Dependencies:
 
-- make -- optional
+- C compiler
+- make        --optional
 
 ## Build
 
 To build the project run:
 ```bash
 make
+```
+Or alternatively compile it with gcc
+```bash
+gcc -Wall -o chatServer src/*
 ```
