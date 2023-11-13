@@ -8,6 +8,10 @@
 
 - Nothing currently
 
+## TODO
+
+- Allow multiple connections
+
 ## Goal
 
 The goal of this project is to learn some C and Git
