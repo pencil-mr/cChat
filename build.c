@@ -1,4 +1,4 @@
-#include "cBuild.h"
+#include "build.h"
 #include <stdio.h>
 
 int main(void) {

@@ -1,5 +1,5 @@
-#ifndef CBUILD_H
-#define CBUILD_H
+#ifndef BUILD_H
+#define BUILD_H
 
 #include <stddef.h>
 #include <stdlib.h>
@@ -50,4 +50,4 @@ void dstring_append_null(dstring* dstr) {
     dstring_append(dstr, '\0');
 }
 
-#endif // CBUILD_H
+#endif // BUILD_H
