@@ -6,7 +6,7 @@
 
 ## Features
 
-- Nothing currently
+- Receive messages from a single connection
 
 ## TODO
 
@@ -19,15 +19,11 @@ The goal of this project is to learn some C and Git
 ## Dependencies:
 
 - C compiler
-- make        --optional
 
 ## Build
 
 To build the project run:
 ```bash
-make
-```
-Or alternatively compile it with gcc
-```bash
-gcc -Wall -o chatServer src/*
+gcc build.c
+./a.out
 ```
