@@ -9,7 +9,8 @@ const int PORT = 8080;
 
 void handle_connect(int conn_fd, char* addr) {
     // TODO: handle more than 1kiB messages
-    char buf[1024] = {'\0'};
+    char buf[1024];
+    memset(buf, 0, 1024);
     int len = read(conn_fd, buf, 1024);
     if (len > 2) {
         printf("Info: %s sent message %s", addr, buf);
